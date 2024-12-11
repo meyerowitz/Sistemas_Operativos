@@ -8,8 +8,8 @@ export default function Conexion(props){
     return(
         <View style={styles.container}>
                     <View style={styles.button}>
-                         <GreenButton text={"Conexión"} onPress={()=> props.navigation.navigate("VistaBlue")} />
-                        <Text>Recuerde activar el Bluetooth</Text>
+                         <GreenButton text={"CONEXIÓN"} onPress={()=> props.navigation.navigate("VistaBlue")} />
+                        <Text style={{marginLeft:27}}>Recuerde activar el Bluetooth</Text>
                     </View>
         </View>
 
@@ -69,6 +69,7 @@ const styles = StyleSheet.create({
 
       button:{
         borderRadius: 20,
+        justifyContent: 'center'
       },
       view1:{
         flex: 1,

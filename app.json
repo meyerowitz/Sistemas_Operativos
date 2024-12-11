@@ -4,7 +4,7 @@
     "slug": "Sistemas1",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/img/hacker.png",
+    "icon": "./assets/img/haker_android.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -12,14 +12,21 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "permissions": [
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN"
+      ],
+
       "adaptiveIcon": {
         "foregroundImage": "./assets/img/hacker.png",
         "backgroundColor": "#ffffff"
       }
+      
     },
     "web": {
       "favicon": "./assets/img/hacker.png"

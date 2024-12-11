@@ -1,14 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { View, Image, StyleSheet,Text,Button, ScrollView } from 'react-native';
 
-{"import BluetoothSerial from 'react-native-bluetooth-serial-next'"}
+
+import Device from './Objetos/Device';
+
+import IsBlueready from './Objetos/IsBlueready';
+
 
 export default function VistaBlue(props){
+
+  
 
     return(
         <View style={styles.container}>
                     <View style={styles.button}>
                         <Text>VistaBlue</Text>
+                        <IsBlueready/>
                     </View>
         </View>
 
